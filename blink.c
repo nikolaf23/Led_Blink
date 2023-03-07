@@ -15,9 +15,9 @@ int16_t main ()
 	while (1)
 	{
 		PORTB |= 1 << 5; // LED ON
-		_delay_ms (1000) ; // pauza 1s
+		_delay_ms (300) ; // pauza 1s
 		PORTB &= ~(1 << 5); // LED OFF
-		_delay_ms (1000) ; // pauza 1s
+		_delay_ms (700) ; // pauza 1s
 	}
 return 0;
 }
